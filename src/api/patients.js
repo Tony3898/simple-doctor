@@ -30,7 +30,7 @@ class Patients extends Base {
         email,
         phone,
         status: 1,
-        password: 'Healthcare@123', //temp basis, not for real project.
+        password: 'Healthcare@1234', //temp basis, not for real project.
         type: 'patient'
       })
       return await super.insert({

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="877dbdfd-9fb1-44a5-ad03-acaec4690380" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../issue-board-react/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../issue-board-react/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../issue-board-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../issue-board-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../issue-board-react/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../issue-board-react/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gotbattle/.idea/gotbattle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../gotbattle/.idea/gotbattle.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gotbattle/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gotbattle/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gotbattle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gotbattle/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../issue-board-react" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../gotbattle" />
   </component>
   <component name="ProjectId" id="1m3x6eNgEkicNXC0a3l1iNl6Kuv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,18 +34,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.19.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="10.17.49" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ui/hooks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/db" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/db" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ui/hooks" />
       <recent name="$PROJECT_DIR$/src/api" />
       <recent name="$PROJECT_DIR$/ui/components" />
-      <recent name="$PROJECT_DIR$/views/partials" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608735901556</updated>
       <workItem from="1608735903983" duration="30651000" />
-      <workItem from="1608821611418" duration="8991000" />
+      <workItem from="1608821611418" duration="9292000" />
     </task>
     <servers />
   </component>

@@ -18,7 +18,7 @@ class Doctors extends Base {
         email,
         phone,
         status: 1,
-        password: 'doctor@123', //temp basis, not for real project.
+        password: 'Doctor@1234', //temp basis, not for real project.
         type: 'doctor'
       })
       return await super.insert({username: register.insertedId})
