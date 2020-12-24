@@ -1,0 +1,62 @@
+{{>header}}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 login login-left">
+            <h3>Welcome to</h3>
+            <h1>{{project}}</h1>
+        </div>
+        <div class="col-sm-6 login login-right">
+            <h5>Sign-in with</h5>
+            <br>
+            <div class="oAuth-buttons">
+                {{#if google}}
+                    <a href="/auth/google">
+                        <button class="btn btn-primary">Google</button>
+                    </a>
+                {{/if}}
+                {{#if twitter}}
+                    <a href="/auth/twitter">
+                        <button class="btn btn-primary">Twitter</button>
+                    </a>
+                {{/if}}
+                {{#if facebook}}
+                    <a href="/auth/facebook">
+                        <button class="btn btn-primary">Facebook</button>
+                    </a>
+                {{/if}}
+            </div>
+            <br>
+            <h5>Or with Email/Password</h5>
+            <form method="post" action="/auth/login">
+                <div class="form-group">
+                    <span id="formError" class="error-text">{{messages.error}}</span>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" aria-describedby="email"
+                           title="xyz@something.com" required name="email"
+                           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                           placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                           title="at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                           class="form-control" id="password" placeholder="Password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-success">Sign In</button>
+                <a href="/">
+                    <button type="button" class="btn">Cancel</button>
+                </a>
+            </form>
+            <hr>
+            <br>
+            {{#if signup}}
+                <h5>New member?</h5>
+                <br>
+                <a href="/auth/register">
+                    <button class="btn btn-danger">SignUp</button>
+                </a>
+            {{/if}}
+        </div>
+    </div>
+</div>
+{{>footer}}

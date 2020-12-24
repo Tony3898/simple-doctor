@@ -1,0 +1,77 @@
+{
+  "name": "@tony3898/simple-doctor",
+  "version": "1.0.0",
+  "description": "simple-doctor",
+  "main": "server.js",
+  "author": "Tejas Rana <contact@tejasrana.in> (https://tejasrana.in/)",
+  "license": "MIT",
+  "scripts": {
+    "start:server": "nodemon server",
+    "start:ui": "webpack --watch",
+    "build:ui": "webpack --mode production",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Tony3898/simple-doctor.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "server.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/Tony3898/simple-doctor/issues"
+  },
+  "homepage": "https://github.com/Tony3898/simple-doctor",
+  "keywords": [
+    "simple-doctor"
+  ],
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "style-loader": "^2.0.0",
+    "css-loader": "^5.0.1",
+    "antd": "^4.9.4",
+    "axios": "^0.20.0",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "compression": "^1.7.4",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "js-yaml": "^3.14.1",
+    "mongodb": "^3.6.3",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.2.0",
+    "slug": "^3.3.4",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "autoprefixer": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-dev-middleware": "^4.0.0"
+  }
+}

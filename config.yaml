@@ -1,0 +1,17 @@
+dev: false
+signup: false
+project_name: 'Simple Doctor'
+moduleName: 'simple-doctor'
+digInUrl: '/app/simple-doctor/home'
+requiredLogin: true
+mongo_db:
+  url: 'mongodb://localhost:27017'
+  db: simple-doctor
+
+connection:
+  port: 5001
+  host: localhost
+
+nav:
+  - name: 'MedEX'
+    path: 'home'

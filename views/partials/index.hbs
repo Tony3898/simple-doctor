@@ -1,0 +1,16 @@
+{{>header project=project moduleName=moduleName title=title}}
+<div class="container-fluid">
+    <div class="row">
+        <div class="intro">
+            <h1 class="text-center">Hello {{#if loggedIn}} <span id="username">{{username}}</span> {{else}}<span>there</span>{{/if}}
+                ,
+                welcome to my
+                project <span class="heart" style="text-transform: uppercase">{{project}}</span></h1>
+            <a href="{{#if requiredLogin}} /auth/login {{else}} {{digInUrl}} {{/if}}" class="heart">
+                <button class="btn btn-accent">Let's dig in <i class="fas fa-arrow-right"></i></button>
+            </a>
+            <br>
+        </div>
+    </div>
+</div>
+{{>footer}}
